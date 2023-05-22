@@ -6,3 +6,92 @@
     font-family: 'Lora', serif;
     /*PARA MI MENUfont-family: 'Vidaloka', serif;*/
 }
+
+
+body{
+    background: linear-gradient(to right, white 60%,  #d6bda6 40%);
+}
+
+
+/*Menu parte de la izquierda y medio*/
+header{
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuizquierda{
+    display: flex;
+}
+
+.logo{
+    font-size: 1.3em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    font-family: 'Vidaloka', serif;
+}
+
+header .menucentral a{
+    text-decoration: none;
+}
+
+.menucentral{
+    margin-left: 10em;
+    margin-top: 1.3em;
+    font-size: small;
+    padding-top: 0.7em;
+}
+
+a{
+    color: black;
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+
+/*Menu parte de la derecha*/
+
+.menuderecha{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5em;
+    padding-left: 10em;
+}
+
+.iconos{
+    margin-right: 5rem;
+    position: relative;
+}
+
+.busqueda{
+    width: 1.4em;
+    height: 1.4em;
+    padding-right: 1em;
+}
+
+.bolsa{
+    width:1.5em;
+    height: 1.5em;
+}
+
+.notificacion{
+    position: absolute;
+    bottom: 20%;
+    left:85%;
+}
+
+.botonprimero{
+    border:none;
+    border-left: 1px solid gray;
+    padding-left: 2em;
+    background-color: #d6bda6;
+}
+
+.botonsegundo{
+    border: 2px solid gray;
+    background-color: #d6bda6;
+    margin-left: 3em;
+    padding: 0.2em 1em;
+}
